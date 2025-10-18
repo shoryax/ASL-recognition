@@ -56,8 +56,7 @@ for x, y in zip(test_int, y_predict_max):
 accuracy = correct / total
 print("Accuracy: " + str(accuracy))
 
-# Use the train_images directory from otherdataset for evaluation if you
-# don't have a separate Validation/ folder.
+# Use the train_images directory from otherdataset for evaluation if you don't have a separate Validation/ folder.
 train_images_path = os.path.join(script_dir, "otherdataset", "train_images")
 more_data, _ = dataprocessing.generate_nonaugmented_images(
     batch_size,

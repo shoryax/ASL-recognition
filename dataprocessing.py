@@ -213,7 +213,6 @@ def tta_prediction(model,
     final_pred = np.mean(predictions, axis=0)
     return final_pred
 
-
 # This does not work
 def get_data(batch_size, img_size):
     traindf = pd.read_csv("otherdataset/train/_annotations.csv", dtype=str)
