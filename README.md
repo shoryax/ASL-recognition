@@ -1,6 +1,6 @@
 # ASL Recognition
 
-Machine Learning model for recognizing **American Sign Language (ASL) letters**, built for the **Snap AR Hackathon**.
+Machine Learning model for recognizing **American Sign Language (ASL) letters**
 
 ---
 
