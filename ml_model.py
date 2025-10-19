@@ -137,6 +137,4 @@ def run():
     # Save the model.
     with open('model.tflite', 'wb') as f:
         f.write(tflite_model)
-
-
 run()
