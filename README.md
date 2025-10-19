@@ -28,8 +28,7 @@ The model is based on **MobileNetV2**, a lightweight convolutional neural networ
 
 | Dataset       | Accuracy   |
 |---------------|------------|
-| ✅ Validation | **86.9%%** |
-| ✅ Test       | **86%**    |
+| ✅ Test       | **87.67%**    |
 | ✅ Training:  |  **100%**  |
 
 Status: Ready to use! 🎉
