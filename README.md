@@ -28,8 +28,11 @@ The model is based on **MobileNetV2**, a lightweight convolutional neural networ
 
 | Dataset       | Accuracy   |
 |---------------|------------|
-| ✅ Validation | **94.12%** |
-| ✅ Test       | **91.60%** |
+| ✅ Validation | **86.9%%** |
+| ✅ Test       | **86%**    |
+| ✅ Training:  |  **100%**  |
+
+Status: Ready to use! 🎉
 
 The model generalizes well, maintaining high performance on unseen ASL hand signs.
 
