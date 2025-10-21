@@ -30,7 +30,7 @@ label_dict = {}
 for i, line in enumerate(open(wnids_path, "r")):
     label_dict[line.rstrip("\n")] = int(i)
 
-test_labels = dataprocessing.generate_test_labels(test_images_path)
+test_labels = dataprocessing.generate_test_labels(test_location=test_images_path)
 test_int = [label_dict[x[0]] for x in test_labels]
 
 batch_size = 100
