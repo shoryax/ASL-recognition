@@ -6,7 +6,7 @@ Machine Learning model for recognizing **American Sign Language (ASL) letters**
 
 ## 📦 Dataset
 
-We used a public ASL dataset provided by [Roboflow](https://public.roboflow.com/object-detection/american-sign-language-letters), containing labeled images for each letter in the ASL alphabet.
+We used a public ASL dataset provided by [David Lee on Roboflow](https://public.roboflow.com/object-detection/american-sign-language-letters), and more containing labeled images for each letter in the ASL alphabet.
 
 - Format: Object Detection (converted for classification)
 - Classes: A–Z (26 total)
